@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+         uri: https://github.com/xuhemiao/ #git仓库的地址
+         search-paths: config-repo #相对地址，多个用，分割
+         username: 1299526240@qq.com
+         passphrase: 15903094184xu
+
